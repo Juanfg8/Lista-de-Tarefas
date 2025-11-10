@@ -1,9 +1,9 @@
 # 💻 Projeto V2: Gerenciador de Tarefas em C#
 
 ## 🎯 Descrição do Projeto
-Este repositório contém o projeto prático desenvolvido para o **Trabalho V2** da disciplina, focado na aplicação da linguagem **C#**. O objetivo é demonstrar o entendimento e a utilização dos principais recursos e paradigmas da linguagem.
+Este repositório contém o projeto prático desenvolvido para o **Trabalho V2** da disciplina, focado na aplicação da linguagem **C#**. [cite_start]O objetivo é demonstrar o entendimento e a utilização dos principais recursos e paradigmas da linguagem[cite: 5, 4].
 
-[cite_start]O projeto é um **Sistema de Gerenciamento Simples** implementado como uma aplicação de console interativa, que simula um **Gerenciador de Tarefas (To-Do List)**[cite: 4, 40].
+[cite_start]O projeto é um **Sistema de Gerenciamento Simples** implementado como uma aplicação de console interativa, que simula um **Gerenciador de Tarefas (To-Do List)**[cite: 4, 40]. [cite_start]O foco não é a criação de um sistema completo, mas sim uma aplicação que demonstre o entendimento e a utilização dos principais recursos e paradigmas da linguagem estudada[cite: 5].
 
 ## ✨ Recursos de C# Explorados
 
@@ -27,12 +27,12 @@ Para rodar esta aplicação de console, você precisa ter o ambiente .NET config
 * [cite_start]**.NET SDK:** Versão 8.0 ou superior (Utilizado para compilar e executar o projeto)[cite: 21].
 * **Editor/IDE:** VSCodium (ou Visual Studio Code).
 
-### Instruções de Execução
+### Instruções de Uso e Execução
 
-1.  **Clone o repositório** para sua máquina local:
+1.  **Clone o repositório** para sua máquina local usando a URL correta:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
-    cd NOME_DO_REPOSITORIO
+    git clone [https://github.com/Juanfg8/Lista-de-Tarefas.git](https://github.com/Juanfg8/Lista-de-Tarefas.git)
+    cd Lista-de-Tarefas
     ```
 
 2.  **Execute a aplicação** a partir do terminal no diretório raiz do projeto:
@@ -51,6 +51,6 @@ A aplicação é dividida em três arquivos principais para organização orient
 * **`Program.cs`**: Contém o ponto de entrada da aplicação, o loop principal e o menu de interação.
 
 ---
-**Desenvolvedor:** [Juan Pedro Ferreira Gomes]
+**Desenvolvedor:** Juan Pedro Ferreira Gomes
 [cite_start]**Instituição:** Centro Universitário Farias Britn [cite: 2]
 [cite_start]**Data do Seminário:** 12/11 [cite: 7]
