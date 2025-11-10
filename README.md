@@ -31,8 +31,8 @@ Para rodar esta aplicação de console, você precisa ter o ambiente .NET config
 
 1.  **Clone o repositório** para sua máquina local usando a URL correta:
     ```bash
-    git clone [https://github.com/Juanfg8/Lista-de-Tarefas.git](https://github.com/Juanfg8/Lista-de-Tarefas.git)
-    cd Lista-de-Tarefas
+    git clone [https://github.com/Juanfg8/Gerenciador-Tarefas.git](https://github.com/Juanfg8/Lista-de-Tarefas.git)
+    cd  Gerenciador-Tarefas
     ```
 
 2.  **Execute a aplicação** a partir do terminal no diretório raiz do projeto:
