@@ -33,12 +33,12 @@ O código está estruturado para ser executado diretamente pelo CLI do .NET.
 
 1.  **Clone o repositório** para sua máquina local usando o comando abaixo:
     ```bash
-    git clone https://github.com/Juanfg8/Lista-de-Tarefas.git
+    git clone https://github.com/Juanfg8/Gerenciador-Tarefas.git
     ```
 
 2.  **Acesse o diretório** do projeto:
     ```bash
-    cd Lista-de-Tarefas
+    cd Gerenciador-Tarefas
     ```
 
 3.  **Execute a aplicação** a partir do terminal no diretório raiz do projeto:
