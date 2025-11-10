@@ -1,13 +1,13 @@
 # 💻 Projeto V2: Gerenciador de Tarefas em C#
 
 ## 🎯 Descrição do Projeto
-Este repositório contém o projeto prático desenvolvido para o **Trabalho V2** da disciplina, focado na aplicação da linguagem **C#**. [cite_start]O objetivo é demonstrar o entendimento e a utilização dos principais recursos e paradigmas da linguagem[cite: 5, 4].
+Este repositório contém o projeto prático desenvolvido para o **Trabalho V2** da disciplina, focado na aplicação da linguagem **C#**. O objetivo é demonstrar o entendimento e a utilização dos principais recursos e paradigmas da linguagem.
 
-[cite_start]O projeto é um **Sistema de Gerenciamento Simples** implementado como uma aplicação de console interativa, que simula um **Gerenciador de Tarefas (To-Do List)**[cite: 4, 40]. [cite_start]O foco não é a criação de um sistema completo, mas sim uma aplicação que demonstre o entendimento e a utilização dos principais recursos e paradigmas da linguagem estudada[cite: 5].
+O projeto é um **Sistema de Gerenciamento Simples** implementado como uma aplicação de console interativa, que simula um **Gerenciador de Tarefas (To-Do List)**. O foco principal é demonstrar o domínio dos conceitos de **Orientação a Objetos (POO)**.
 
 ## ✨ Recursos de C# Explorados
 
-[cite_start]O projeto foi planejado para evidenciar o paradigma de **Orientação a Objetos (POO)** e as características centrais do C#[cite: 5, 18, 35].
+O projeto foi planejado para evidenciar o paradigma de **Orientação a Objetos (POO)** e as características centrais do C#.
 
 | Conceito | Aplicação no Projeto |
 | :--- | :--- |
@@ -20,31 +20,37 @@ Este repositório contém o projeto prático desenvolvido para o **Trabalho V2**
 
 ## 🚀 Como Executar o Projeto
 
-Para rodar esta aplicação de console, você precisa ter o ambiente .NET configurado.
+Para rodar esta aplicação de console, você precisa ter o ambiente .NET SDK configurado.
 
 ### Requisitos Mínimos
 
-* [cite_start]**.NET SDK:** Versão 8.0 ou superior (Utilizado para compilar e executar o projeto)[cite: 21].
+* **.NET SDK:** Versão 8.0 ou superior (Necessário para compilar e executar o projeto).
 * **Editor/IDE:** VSCodium (ou Visual Studio Code).
 
 ### Instruções de Uso e Execução
 
-1.  **Clone o repositório** para sua máquina local usando a URL correta:
+O código está estruturado para ser executado diretamente pelo CLI do .NET.
+
+1.  **Clone o repositório** para sua máquina local usando o comando abaixo:
     ```bash
-    git clone [https://github.com/Juanfg8/Gerenciador-Tarefas.git](https://github.com/Juanfg8/Lista-de-Tarefas.git)
-    cd  Gerenciador-Tarefas
+    git clone [https://github.com/Juanfg8/Lista-de-Tarefas.git](https://github.com/Juanfg8/Lista-de-Tarefas.git)
     ```
 
-2.  **Execute a aplicação** a partir do terminal no diretório raiz do projeto:
+2.  **Acesse o diretório** do projeto:
+    ```bash
+    cd Lista-de-Tarefas
+    ```
+
+3.  **Execute a aplicação** a partir do terminal no diretório raiz do projeto:
     ```bash
     dotnet run
     ```
 
-3.  O menu interativo será iniciado, e você poderá testar as funcionalidades (Adicionar, Listar, Marcar como Concluída).
+4.  O menu interativo será iniciado, permitindo testar as funcionalidades (Adicionar, Listar, Marcar como Concluída).
 
 ## 📝 Estrutura do Código
 
-A aplicação é dividida em três arquivos principais para organização orientada a objetos:
+A aplicação segue o padrão de POO, dividida em arquivos lógicos:
 
 * **`Tarefa.cs`**: Define o objeto **Tarefa**.
 * **`GerenciadorDeTarefas.cs`**: Contém a lógica de manipulação da coleção (`List<Tarefa>`).
@@ -52,5 +58,5 @@ A aplicação é dividida em três arquivos principais para organização orient
 
 ---
 **Desenvolvedor:** Juan Pedro Ferreira Gomes
-[cite_start]**Instituição:** Centro Universitário Farias Britn [cite: 2]
-[cite_start]**Data do Seminário:** 12/11 [cite: 7]
+**Instituição:** Centro Universitário Farias Britn
+**Data do Seminário:** 12/11
